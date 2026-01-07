@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-abhinay",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19a61d5b-3604-4879-a635-b0162fb852e9",
+		"tenantId": "e4355354-13de-40d5-b847-4aa4c5658f04"
+	}
+}
