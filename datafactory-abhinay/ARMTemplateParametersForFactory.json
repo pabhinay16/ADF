@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-abhinay"
+		},
+		"linkedserviceDL_accountKey": {
+			"value": ""
+		},
+		"linkedGIT_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"linkedserviceDL_properties_typeProperties_url": {
+			"value": "https://storageadfp1.dfs.core.windows.net/"
+		},
+		"Event trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/4d449fe4-7bd7-49d9-ade5-23f7380a05b8/resourceGroups/RG-ADF/providers/Microsoft.Storage/storageAccounts/storageadfp1"
+		},
+		"man trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/4d449fe4-7bd7-49d9-ade5-23f7380a05b8/resourceGroups/RG-ADF/providers/Microsoft.Storage/storageAccounts/storageadfp1"
+		}
+	}
+}
